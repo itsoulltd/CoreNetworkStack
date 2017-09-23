@@ -1,0 +1,525 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26456EA91F76625F003AEF53 /* CoreNetworkStack.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EA71F76625F003AEF53 /* CoreNetworkStack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EDD1F76633C003AEF53 /* CommunicationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EB01F7662AF003AEF53 /* CommunicationHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EDE1F76633C003AEF53 /* HttpFileRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EB21F7662AF003AEF53 /* HttpFileRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EDF1F76633C003AEF53 /* HttpRequestHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EB41F7662AF003AEF53 /* HttpRequestHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE01F76633C003AEF53 /* HttpWebRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EB61F7662AF003AEF53 /* HttpWebRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE11F76633C003AEF53 /* RemoteTask.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EB81F7662AF003AEF53 /* RemoteTask.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE21F76633C003AEF53 /* NetworkActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EBB1F7662AF003AEF53 /* NetworkActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE31F76633C003AEF53 /* ConnectionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EC11F7662AF003AEF53 /* ConnectionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE41F76633C003AEF53 /* ContentHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EC31F7662AF003AEF53 /* ContentHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE51F76633C003AEF53 /* SessionHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EC51F7662AF003AEF53 /* SessionHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE61F76633C003AEF53 /* EnergyStateSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EC81F7662AF003AEF53 /* EnergyStateSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE71F76633C003AEF53 /* RemoteConnection.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ECA1F7662AF003AEF53 /* RemoteConnection.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE81F76633C003AEF53 /* RemoteSession.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ECC1F7662AF003AEF53 /* RemoteSession.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EE91F76633C003AEF53 /* ContentDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ECF1F7662AF003AEF53 /* ContentDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EEA1F76633C003AEF53 /* RemoteSessionProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED01F7662AF003AEF53 /* RemoteSessionProtocol.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EEB1F76633C003AEF53 /* CNDebugLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED21F7662AF003AEF53 /* CNDebugLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EEC1F76633C003AEF53 /* CNExceptionLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED41F7662AF003AEF53 /* CNExceptionLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		26456EED1F766374003AEF53 /* NSData+NGStackHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED71F7662AF003AEF53 /* NSData+NGStackHash.h */; };
+		26456EEE1F766374003AEF53 /* NSString+NGStackHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED91F7662AF003AEF53 /* NSString+NGStackHash.h */; };
+		26456EEF1F766374003AEF53 /* LogTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EDB1F7662AF003AEF53 /* LogTracker.h */; };
+		26456EF21F7663EA003AEF53 /* CoreDataStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26456EF11F7663EA003AEF53 /* CoreDataStack.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		26456EA41F76625F003AEF53 /* CoreNetworkStack.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreNetworkStack.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26456EA71F76625F003AEF53 /* CoreNetworkStack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreNetworkStack.h; sourceTree = "<group>"; };
+		26456EA81F76625F003AEF53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26456EB01F7662AF003AEF53 /* CommunicationHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommunicationHeader.h; sourceTree = "<group>"; };
+		26456EB21F7662AF003AEF53 /* HttpFileRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpFileRequest.h; sourceTree = "<group>"; };
+		26456EB31F7662AF003AEF53 /* HttpFileRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpFileRequest.m; sourceTree = "<group>"; };
+		26456EB41F7662AF003AEF53 /* HttpRequestHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpRequestHeader.h; sourceTree = "<group>"; };
+		26456EB51F7662AF003AEF53 /* HttpRequestHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpRequestHeader.m; sourceTree = "<group>"; };
+		26456EB61F7662AF003AEF53 /* HttpWebRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HttpWebRequest.h; sourceTree = "<group>"; };
+		26456EB71F7662AF003AEF53 /* HttpWebRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpWebRequest.m; sourceTree = "<group>"; };
+		26456EB81F7662AF003AEF53 /* RemoteTask.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteTask.h; sourceTree = "<group>"; };
+		26456EB91F7662AF003AEF53 /* RemoteTask.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteTask.m; sourceTree = "<group>"; };
+		26456EBB1F7662AF003AEF53 /* NetworkActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkActivity.h; sourceTree = "<group>"; };
+		26456EBC1F7662AF003AEF53 /* NetworkActivity.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkActivity.m; sourceTree = "<group>"; };
+		26456EBD1F7662AF003AEF53 /* Reachability.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		26456EBE1F7662AF003AEF53 /* Reachability.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		26456EC11F7662AF003AEF53 /* ConnectionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ConnectionHandler.h; sourceTree = "<group>"; };
+		26456EC21F7662AF003AEF53 /* ConnectionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ConnectionHandler.m; sourceTree = "<group>"; };
+		26456EC31F7662AF003AEF53 /* ContentHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentHandler.h; sourceTree = "<group>"; };
+		26456EC41F7662AF003AEF53 /* ContentHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentHandler.m; sourceTree = "<group>"; };
+		26456EC51F7662AF003AEF53 /* SessionHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SessionHandler.h; sourceTree = "<group>"; };
+		26456EC61F7662AF003AEF53 /* SessionHandler.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SessionHandler.m; sourceTree = "<group>"; };
+		26456EC81F7662AF003AEF53 /* EnergyStateSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnergyStateSession.h; sourceTree = "<group>"; };
+		26456EC91F7662AF003AEF53 /* EnergyStateSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EnergyStateSession.m; sourceTree = "<group>"; };
+		26456ECA1F7662AF003AEF53 /* RemoteConnection.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteConnection.h; sourceTree = "<group>"; };
+		26456ECB1F7662AF003AEF53 /* RemoteConnection.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteConnection.m; sourceTree = "<group>"; };
+		26456ECC1F7662AF003AEF53 /* RemoteSession.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteSession.h; sourceTree = "<group>"; };
+		26456ECD1F7662AF003AEF53 /* RemoteSession.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RemoteSession.m; sourceTree = "<group>"; };
+		26456ECF1F7662AF003AEF53 /* ContentDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentDelegate.h; sourceTree = "<group>"; };
+		26456ED01F7662AF003AEF53 /* RemoteSessionProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RemoteSessionProtocol.h; sourceTree = "<group>"; };
+		26456ED21F7662AF003AEF53 /* CNDebugLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNDebugLog.h; sourceTree = "<group>"; };
+		26456ED31F7662AF003AEF53 /* CNDebugLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNDebugLog.m; sourceTree = "<group>"; };
+		26456ED41F7662AF003AEF53 /* CNExceptionLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CNExceptionLog.h; sourceTree = "<group>"; };
+		26456ED51F7662AF003AEF53 /* CNExceptionLog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CNExceptionLog.m; sourceTree = "<group>"; };
+		26456ED71F7662AF003AEF53 /* NSData+NGStackHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSData+NGStackHash.h"; sourceTree = "<group>"; };
+		26456ED81F7662AF003AEF53 /* NSData+NGStackHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSData+NGStackHash.m"; sourceTree = "<group>"; };
+		26456ED91F7662AF003AEF53 /* NSString+NGStackHash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+NGStackHash.h"; sourceTree = "<group>"; };
+		26456EDA1F7662AF003AEF53 /* NSString+NGStackHash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSString+NGStackHash.m"; sourceTree = "<group>"; };
+		26456EDB1F7662AF003AEF53 /* LogTracker.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LogTracker.h; sourceTree = "<group>"; };
+		26456EDC1F7662AF003AEF53 /* LogTracker.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LogTracker.m; sourceTree = "<group>"; };
+		26456EF11F7663EA003AEF53 /* CoreDataStack.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreDataStack.framework; path = CoreNetworkStack/CoreDataStack.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		26456EA01F76625F003AEF53 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26456EF21F7663EA003AEF53 /* CoreDataStack.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		26456E9A1F76625F003AEF53 = {
+			isa = PBXGroup;
+			children = (
+				26456EA61F76625F003AEF53 /* CoreNetworkStack */,
+				26456EA51F76625F003AEF53 /* Products */,
+				26456EF01F7663EA003AEF53 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		26456EA51F76625F003AEF53 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26456EA41F76625F003AEF53 /* CoreNetworkStack.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		26456EA61F76625F003AEF53 /* CoreNetworkStack */ = {
+			isa = PBXGroup;
+			children = (
+				26456EAF1F7662AF003AEF53 /* CoreObjects */,
+				26456ED11F7662AF003AEF53 /* Utility */,
+				26456EA71F76625F003AEF53 /* CoreNetworkStack.h */,
+				26456EA81F76625F003AEF53 /* Info.plist */,
+			);
+			path = CoreNetworkStack;
+			sourceTree = "<group>";
+		};
+		26456EAF1F7662AF003AEF53 /* CoreObjects */ = {
+			isa = PBXGroup;
+			children = (
+				26456EB01F7662AF003AEF53 /* CommunicationHeader.h */,
+				26456EB11F7662AF003AEF53 /* CommunicationModels */,
+				26456EBA1F7662AF003AEF53 /* Network Monitoring */,
+				26456EBF1F7662AF003AEF53 /* Object Synchronizers */,
+			);
+			path = CoreObjects;
+			sourceTree = "<group>";
+		};
+		26456EB11F7662AF003AEF53 /* CommunicationModels */ = {
+			isa = PBXGroup;
+			children = (
+				26456EB21F7662AF003AEF53 /* HttpFileRequest.h */,
+				26456EB31F7662AF003AEF53 /* HttpFileRequest.m */,
+				26456EB41F7662AF003AEF53 /* HttpRequestHeader.h */,
+				26456EB51F7662AF003AEF53 /* HttpRequestHeader.m */,
+				26456EB61F7662AF003AEF53 /* HttpWebRequest.h */,
+				26456EB71F7662AF003AEF53 /* HttpWebRequest.m */,
+				26456EB81F7662AF003AEF53 /* RemoteTask.h */,
+				26456EB91F7662AF003AEF53 /* RemoteTask.m */,
+			);
+			path = CommunicationModels;
+			sourceTree = "<group>";
+		};
+		26456EBA1F7662AF003AEF53 /* Network Monitoring */ = {
+			isa = PBXGroup;
+			children = (
+				26456EBB1F7662AF003AEF53 /* NetworkActivity.h */,
+				26456EBC1F7662AF003AEF53 /* NetworkActivity.m */,
+				26456EBD1F7662AF003AEF53 /* Reachability.h */,
+				26456EBE1F7662AF003AEF53 /* Reachability.m */,
+			);
+			path = "Network Monitoring";
+			sourceTree = "<group>";
+		};
+		26456EBF1F7662AF003AEF53 /* Object Synchronizers */ = {
+			isa = PBXGroup;
+			children = (
+				26456EC01F7662AF003AEF53 /* Handler */,
+				26456EC71F7662AF003AEF53 /* Implementations */,
+				26456ECE1F7662AF003AEF53 /* Interfaces */,
+			);
+			path = "Object Synchronizers";
+			sourceTree = "<group>";
+		};
+		26456EC01F7662AF003AEF53 /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+				26456EC11F7662AF003AEF53 /* ConnectionHandler.h */,
+				26456EC21F7662AF003AEF53 /* ConnectionHandler.m */,
+				26456EC31F7662AF003AEF53 /* ContentHandler.h */,
+				26456EC41F7662AF003AEF53 /* ContentHandler.m */,
+				26456EC51F7662AF003AEF53 /* SessionHandler.h */,
+				26456EC61F7662AF003AEF53 /* SessionHandler.m */,
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		26456EC71F7662AF003AEF53 /* Implementations */ = {
+			isa = PBXGroup;
+			children = (
+				26456EC81F7662AF003AEF53 /* EnergyStateSession.h */,
+				26456EC91F7662AF003AEF53 /* EnergyStateSession.m */,
+				26456ECA1F7662AF003AEF53 /* RemoteConnection.h */,
+				26456ECB1F7662AF003AEF53 /* RemoteConnection.m */,
+				26456ECC1F7662AF003AEF53 /* RemoteSession.h */,
+				26456ECD1F7662AF003AEF53 /* RemoteSession.m */,
+			);
+			path = Implementations;
+			sourceTree = "<group>";
+		};
+		26456ECE1F7662AF003AEF53 /* Interfaces */ = {
+			isa = PBXGroup;
+			children = (
+				26456ECF1F7662AF003AEF53 /* ContentDelegate.h */,
+				26456ED01F7662AF003AEF53 /* RemoteSessionProtocol.h */,
+			);
+			path = Interfaces;
+			sourceTree = "<group>";
+		};
+		26456ED11F7662AF003AEF53 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				26456ED21F7662AF003AEF53 /* CNDebugLog.h */,
+				26456ED31F7662AF003AEF53 /* CNDebugLog.m */,
+				26456ED41F7662AF003AEF53 /* CNExceptionLog.h */,
+				26456ED51F7662AF003AEF53 /* CNExceptionLog.m */,
+				26456ED61F7662AF003AEF53 /* Hashing */,
+				26456EDB1F7662AF003AEF53 /* LogTracker.h */,
+				26456EDC1F7662AF003AEF53 /* LogTracker.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		26456ED61F7662AF003AEF53 /* Hashing */ = {
+			isa = PBXGroup;
+			children = (
+				26456ED71F7662AF003AEF53 /* NSData+NGStackHash.h */,
+				26456ED81F7662AF003AEF53 /* NSData+NGStackHash.m */,
+				26456ED91F7662AF003AEF53 /* NSString+NGStackHash.h */,
+				26456EDA1F7662AF003AEF53 /* NSString+NGStackHash.m */,
+			);
+			path = Hashing;
+			sourceTree = "<group>";
+		};
+		26456EF01F7663EA003AEF53 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				26456EF11F7663EA003AEF53 /* CoreDataStack.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26456EA11F76625F003AEF53 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26456EA91F76625F003AEF53 /* CoreNetworkStack.h in Headers */,
+				26456EDD1F76633C003AEF53 /* CommunicationHeader.h in Headers */,
+				26456EDE1F76633C003AEF53 /* HttpFileRequest.h in Headers */,
+				26456EDF1F76633C003AEF53 /* HttpRequestHeader.h in Headers */,
+				26456EE01F76633C003AEF53 /* HttpWebRequest.h in Headers */,
+				26456EE11F76633C003AEF53 /* RemoteTask.h in Headers */,
+				26456EE21F76633C003AEF53 /* NetworkActivity.h in Headers */,
+				26456EE31F76633C003AEF53 /* ConnectionHandler.h in Headers */,
+				26456EE41F76633C003AEF53 /* ContentHandler.h in Headers */,
+				26456EE51F76633C003AEF53 /* SessionHandler.h in Headers */,
+				26456EE61F76633C003AEF53 /* EnergyStateSession.h in Headers */,
+				26456EE71F76633C003AEF53 /* RemoteConnection.h in Headers */,
+				26456EE81F76633C003AEF53 /* RemoteSession.h in Headers */,
+				26456EE91F76633C003AEF53 /* ContentDelegate.h in Headers */,
+				26456EEA1F76633C003AEF53 /* RemoteSessionProtocol.h in Headers */,
+				26456EEB1F76633C003AEF53 /* CNDebugLog.h in Headers */,
+				26456EEC1F76633C003AEF53 /* CNExceptionLog.h in Headers */,
+				26456EED1F766374003AEF53 /* NSData+NGStackHash.h in Headers */,
+				26456EEE1F766374003AEF53 /* NSString+NGStackHash.h in Headers */,
+				26456EEF1F766374003AEF53 /* LogTracker.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		26456EA31F76625F003AEF53 /* CoreNetworkStack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 26456EAC1F76625F003AEF53 /* Build configuration list for PBXNativeTarget "CoreNetworkStack" */;
+			buildPhases = (
+				26456E9F1F76625F003AEF53 /* Sources */,
+				26456EA01F76625F003AEF53 /* Frameworks */,
+				26456EA11F76625F003AEF53 /* Headers */,
+				26456EA21F76625F003AEF53 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreNetworkStack;
+			productName = CoreNetworkStack;
+			productReference = 26456EA41F76625F003AEF53 /* CoreNetworkStack.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		26456E9B1F76625F003AEF53 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Towhid Islam";
+				TargetAttributes = {
+					26456EA31F76625F003AEF53 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 26456E9E1F76625F003AEF53 /* Build configuration list for PBXProject "CoreNetworkStack" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 26456E9A1F76625F003AEF53;
+			productRefGroup = 26456EA51F76625F003AEF53 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				26456EA31F76625F003AEF53 /* CoreNetworkStack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		26456EA21F76625F003AEF53 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		26456E9F1F76625F003AEF53 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		26456EAA1F76625F003AEF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		26456EAB1F76625F003AEF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		26456EAD1F76625F003AEF53 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M622GQ77LE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreNetworkStack",
+				);
+				INFOPLIST_FILE = CoreNetworkStack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.CoreNetworkStack;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		26456EAE1F76625F003AEF53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = M622GQ77LE;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoreNetworkStack",
+				);
+				INFOPLIST_FILE = CoreNetworkStack/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.swift.CoreNetworkStack;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		26456E9E1F76625F003AEF53 /* Build configuration list for PBXProject "CoreNetworkStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26456EAA1F76625F003AEF53 /* Debug */,
+				26456EAB1F76625F003AEF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		26456EAC1F76625F003AEF53 /* Build configuration list for PBXNativeTarget "CoreNetworkStack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26456EAD1F76625F003AEF53 /* Debug */,
+				26456EAE1F76625F003AEF53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 26456E9B1F76625F003AEF53 /* Project object */;
+}
