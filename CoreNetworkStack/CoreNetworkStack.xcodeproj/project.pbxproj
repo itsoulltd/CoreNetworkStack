@@ -28,6 +28,23 @@
 		26456EEE1F766374003AEF53 /* NSString+NGStackHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456ED91F7662AF003AEF53 /* NSString+NGStackHash.h */; };
 		26456EEF1F766374003AEF53 /* LogTracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 26456EDB1F7662AF003AEF53 /* LogTracker.h */; };
 		26456EF21F7663EA003AEF53 /* CoreDataStack.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 26456EF11F7663EA003AEF53 /* CoreDataStack.framework */; };
+		26456F2D1F7667AB003AEF53 /* HttpFileRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EB31F7662AF003AEF53 /* HttpFileRequest.m */; };
+		26456F2E1F7667AB003AEF53 /* HttpRequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EB51F7662AF003AEF53 /* HttpRequestHeader.m */; };
+		26456F2F1F7667AB003AEF53 /* HttpWebRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EB71F7662AF003AEF53 /* HttpWebRequest.m */; };
+		26456F301F7667AB003AEF53 /* RemoteTask.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EB91F7662AF003AEF53 /* RemoteTask.m */; };
+		26456F311F7667AB003AEF53 /* NetworkActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EBC1F7662AF003AEF53 /* NetworkActivity.m */; };
+		26456F321F7667AB003AEF53 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EBE1F7662AF003AEF53 /* Reachability.m */; };
+		26456F331F7667AB003AEF53 /* ConnectionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EC21F7662AF003AEF53 /* ConnectionHandler.m */; };
+		26456F341F7667AB003AEF53 /* ContentHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EC41F7662AF003AEF53 /* ContentHandler.m */; };
+		26456F351F7667AB003AEF53 /* SessionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EC61F7662AF003AEF53 /* SessionHandler.m */; };
+		26456F361F7667AB003AEF53 /* EnergyStateSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EC91F7662AF003AEF53 /* EnergyStateSession.m */; };
+		26456F371F7667AB003AEF53 /* RemoteConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456ECB1F7662AF003AEF53 /* RemoteConnection.m */; };
+		26456F381F7667AB003AEF53 /* RemoteSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456ECD1F7662AF003AEF53 /* RemoteSession.m */; };
+		26456F391F7667AB003AEF53 /* CNDebugLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456ED31F7662AF003AEF53 /* CNDebugLog.m */; };
+		26456F3A1F7667AB003AEF53 /* CNExceptionLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456ED51F7662AF003AEF53 /* CNExceptionLog.m */; };
+		26456F3B1F7667AB003AEF53 /* NSData+NGStackHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456ED81F7662AF003AEF53 /* NSData+NGStackHash.m */; };
+		26456F3C1F7667AB003AEF53 /* NSString+NGStackHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EDA1F7662AF003AEF53 /* NSString+NGStackHash.m */; };
+		26456F3D1F7667AB003AEF53 /* LogTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = 26456EDC1F7662AF003AEF53 /* LogTracker.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -327,6 +344,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26456F2D1F7667AB003AEF53 /* HttpFileRequest.m in Sources */,
+				26456F2E1F7667AB003AEF53 /* HttpRequestHeader.m in Sources */,
+				26456F2F1F7667AB003AEF53 /* HttpWebRequest.m in Sources */,
+				26456F301F7667AB003AEF53 /* RemoteTask.m in Sources */,
+				26456F311F7667AB003AEF53 /* NetworkActivity.m in Sources */,
+				26456F321F7667AB003AEF53 /* Reachability.m in Sources */,
+				26456F331F7667AB003AEF53 /* ConnectionHandler.m in Sources */,
+				26456F341F7667AB003AEF53 /* ContentHandler.m in Sources */,
+				26456F351F7667AB003AEF53 /* SessionHandler.m in Sources */,
+				26456F361F7667AB003AEF53 /* EnergyStateSession.m in Sources */,
+				26456F371F7667AB003AEF53 /* RemoteConnection.m in Sources */,
+				26456F381F7667AB003AEF53 /* RemoteSession.m in Sources */,
+				26456F391F7667AB003AEF53 /* CNDebugLog.m in Sources */,
+				26456F3A1F7667AB003AEF53 /* CNExceptionLog.m in Sources */,
+				26456F3B1F7667AB003AEF53 /* NSData+NGStackHash.m in Sources */,
+				26456F3C1F7667AB003AEF53 /* NSString+NGStackHash.m in Sources */,
+				26456F3D1F7667AB003AEF53 /* LogTracker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
