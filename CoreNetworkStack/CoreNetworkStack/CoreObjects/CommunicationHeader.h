@@ -34,6 +34,6 @@ typedef enum : NSUInteger {
 
 typedef void(^CompletionHandler)(NSData* data, NSURLResponse *response, NSError* error);
 typedef void(^DownloadCompletionHandler)(NSURL* savedURL, NSURLResponse *response, NSError* error);
-typedef void (^CompletionHandlerType)();
+typedef void (^CompletionHandlerType)(void);
 
 #endif
